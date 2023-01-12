@@ -107,8 +107,11 @@ Ostali implementirani primeri uporabe:
 
 Za oblačnega ponudnika smo izbrali Google cloud. Vse konfiguracijske datoteke so dostopne na zgoraj navedenem github repozitoriju (glej "Repozitoriji konfiguracije")
 Aplikacija je dostopna na http://34.107.204.219/.
-Preko ingressa pa lahko dostopamo do events, email, payment in users mikrostoritev na naslovu /users, /email, /payments in /events. Vse storitve so postavljene za ingressom na naslovu TODO.
-Posebej smo izpostavili še phpMyadmin, kjer lahko dostopamo do baze. Nahaja se na naslovu http://34.83.89.102.
+Zaledni del aplikacije lahko dostopamo na naslednjih naslovih:
+- Events_backend: http://34.168.255.49:8120/
+- Users_backend: http://34.168.57.248:8110/
+- Email_backend: http://34.168.255.49:8120/
+- Payments_backend: http://34.168.23.255:8100/
 Za pregled metrik smo izpostavili še prometheus in graphana na naslovu http://34.111.151.169/ in http://34.117.227.122/.
 
 ## Uporaba konfiguracij
