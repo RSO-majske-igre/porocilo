@@ -45,7 +45,6 @@ Pri razvoju čelnih in zalednih mikrostoritev je bilo uporabljeno razvojno okolj
 | spring_cloud | Konfiguracija Spring Cloud | [https://github.com/RSO-majske-igre/spring_cloud](https://github.com/RSO-majske-igre/spring_cloud) |
 
 ## Shema arhitekture in iterakcij
-TODO: MATJAŽ posodobit graf s kubernetes shitom
 
 ![./grafi/arhitektura.drawio.png](./grafi/arhitektura.drawio.png)
 
