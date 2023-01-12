@@ -111,7 +111,11 @@ Zaledni del aplikacije lahko dostopamo na naslednjih naslovih:
 - Users_backend: http://34.168.57.248:8110/
 - Email_backend: http://34.168.255.49:8120/
 - Payments_backend: http://34.168.23.255:8100/
+
+
 Za pregled metrik smo izpostavili še prometheus in graphana na naslovu http://34.111.151.169/ in http://34.117.227.122/.
+
+Za pregled zdravja zalednih storitev je na voljo __spring admin__ na naslovu http://35.185.237.162:7000/applications
 
 ## Uporaba konfiguracij
 
