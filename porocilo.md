@@ -16,7 +16,7 @@ Za razvoj zalednih mikrostoritev je bilo uporabljeno ogrodje __Spring Boot__. Za
 
 Za razvoj čelnega dela sistema je bilo uporabljeno ogrodje __Angular__, ki znotraj lastnega vmesnika uporablja nginx spletni strežnik. Pri razvoju je bilo uporabljeno tudi ogrodje Bulma za hitro prototipiranje stilov.
 
-// TODO: Matjaž
+Za razvoj CI/CD smo uporabili __Github actions__ in __Dockerhub__.
 
 Pri razvoju čelnih in zalednih mikrostoritev je bilo uporabljeno razvojno okolje __IntelliJ__.
 
@@ -104,9 +104,12 @@ Ostali implementirani primeri uporabe:
 
 
 ## Namestitev na Kubernetes
-TODO: MATJAŽ
 
-Kratek opis namestitve na Kubernetes (navedite izbranega ponudnika oblačnih storitev, naslov URL, na katerem je vaša aplikacija dostopna, in vključutev Ingressa).
+Za oblačnega ponudnika smo izbrali Google cloud. Vse konfiguracijske datoteke so dostopne na zgoraj navedenem github repozitoriju (glej "Repozitoriji konfiguracije")
+Aplikacija je dostopna na http://34.107.204.219/.
+Preko ingressa pa lahko dostopamo do events, email, payment in users mikrostoritev na naslovu /users, /email, /payments in /events. Vse storitve so postavljene za ingressom na naslovu TODO.
+Posebej smo izpostavili še phpMyadmin, kjer lahko dostopamo do baze. Nahaja se na naslovu http://34.83.89.102.
+Za pregled metrik smo izpostavili še prometheus in graphana na naslovu http://34.111.151.169/ in http://34.117.227.122/.
 
 ## Uporaba konfiguracij
 
