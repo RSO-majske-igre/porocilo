@@ -107,7 +107,7 @@ Ostali implementirani primeri uporabe:
 Za oblačnega ponudnika smo izbrali Google cloud. Vse konfiguracijske datoteke so dostopne na zgoraj navedenem github repozitoriju (glej "Repozitoriji konfiguracije")
 Aplikacija je dostopna na http://34.107.204.219/.
 Zaledni del aplikacije lahko dostopamo na naslednjih naslovih:
-- Events_backend: http://34.168.255.49:8120/
+- Events_backend: http://35.230.83.46:8090/
 - Users_backend: http://34.168.57.248:8110/
 - Email_backend: http://34.168.255.49:8120/
 - Payments_backend: http://34.168.23.255:8100/
